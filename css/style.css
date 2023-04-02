@@ -38,46 +38,6 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: Cuprum-italic;
-  font-display: swap;
-  src: url("../fonts/Cuprum-Italic.woff2") format("woff2"), url("../fonts/Cuprum-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Cuprum;
-  font-display: swap;
-  src: url("../fonts/Cuprum.woff2") format("woff2"), url("../fonts/Cuprum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed-LightItalic;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/OpenSansCondensed-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -169,46 +129,6 @@ h6 {
   font-size: inherit;
 }
 
-@font-face {
-  font-family: Cuprum-italic;
-  font-display: swap;
-  src: url("../fonts/Cuprum-Italic.woff2") format("woff2"), url("../fonts/Cuprum-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Cuprum;
-  font-display: swap;
-  src: url("../fonts/Cuprum.woff2") format("woff2"), url("../fonts/Cuprum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed-LightItalic;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/OpenSansCondensed-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
 *::-webkit-scrollbar {
   width: 6px;
 }
@@ -265,51 +185,11 @@ body h6 {
   margin: 0 auto;
 }
 
-@font-face {
-  font-family: Cuprum-italic;
-  font-display: swap;
-  src: url("../fonts/Cuprum-Italic.woff2") format("woff2"), url("../fonts/Cuprum-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Cuprum;
-  font-display: swap;
-  src: url("../fonts/Cuprum.woff2") format("woff2"), url("../fonts/Cuprum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed-LightItalic;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/OpenSansCondensed-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
 .burger {
   position: relative;
   z-index: 15;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -344,8 +224,8 @@ body h6 {
 }
 
 .burger svg {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   fill: #ffa84b;
   stroke: #ff8a56;
 }
@@ -356,8 +236,8 @@ body h6 {
 }
 
 .burger .close svg {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 .burger .menu {
@@ -461,6 +341,20 @@ body h6 {
   height: 28px;
 }
 
+.header__body-svg-link a:hover svg {
+  fill: #ff5e69;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header__body-svg-link a svg {
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  fill: #ffffff;
+}
+
 .link {
   position: relative;
 }
@@ -515,46 +409,6 @@ body h6 {
 
 .link.active::after {
   width: 0;
-}
-
-@font-face {
-  font-family: Cuprum-italic;
-  font-display: swap;
-  src: url("../fonts/Cuprum-Italic.woff2") format("woff2"), url("../fonts/Cuprum-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Cuprum;
-  font-display: swap;
-  src: url("../fonts/Cuprum.woff2") format("woff2"), url("../fonts/Cuprum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed-LightItalic;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/OpenSansCondensed-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
 }
 
 .footer__content {
@@ -675,6 +529,20 @@ body h6 {
   height: 28px;
 }
 
+.footer__body-svg-link a:hover svg {
+  fill: #ff5e69;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer__body-svg-link a svg {
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  fill: #ffffff;
+}
+
 .footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,6 +655,33 @@ body h6 {
   -webkit-text-fill-color: transparent;
 }
 
+._copy {
+  position: relative;
+  z-index: 2;
+}
+
+._copy-info {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 4px 6px;
+  color: #797979;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
 .home__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -863,46 +758,6 @@ body h6 {
   font-weight: 600;
   color: #a7a7a7;
   line-height: 28px;
-}
-
-@font-face {
-  font-family: Cuprum-italic;
-  font-display: swap;
-  src: url("../fonts/Cuprum-Italic.woff2") format("woff2"), url("../fonts/Cuprum-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Cuprum;
-  font-display: swap;
-  src: url("../fonts/Cuprum.woff2") format("woff2"), url("../fonts/Cuprum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: OpenSansCondensed-LightItalic;
-  font-display: swap;
-  src: url("../fonts/OpenSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/OpenSansCondensed-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
 }
 
 .stack__header {
@@ -1383,11 +1238,88 @@ body h6 {
   color: #fff;
 }
 
+.about__text._anim-items {
+  opacity: 0;
+  -webkit-transition: 0.4s linear 0.3s;
+  -o-transition: 0.4s linear 0.3s;
+  transition: 0.4s linear 0.3s;
+}
+
+.about__text:nth-child(odd) {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.about__text:nth-child(even) {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.about__text._animate {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.stack__item._anim-items {
+  opacity: 0;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+.stack__item._animate {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
 @media (min-width: 767.98px) {
   .header__content.fixed {
     background: rgba(255, 255, 255, 0.001);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+  }
+
+  .home__title._anim-items {
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+
+  .home__title._animate {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  .home__wrapper-img._anim-items {
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+
+  .home__wrapper-img._animate {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -1549,6 +1481,40 @@ body h6 {
 
   .projects__card-wrapper {
     margin: 0 auto;
+  }
+
+  .home__title._anim-items {
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+
+  .home__title._animate {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  .home__wrapper-img._anim-items {
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+  }
+
+  .home__wrapper-img._animate {
+    opacity: 1;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
   }
 }
 

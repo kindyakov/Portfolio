@@ -1228,33 +1228,107 @@ body h6 {
 }
 
 .button {
-  background-color: #ff5e69;
-  padding: 12px 24px;
+  padding: 16px 32px;
   font-size: 22px;
   font-weight: bold;
   border-radius: 8px;
   margin: 0 auto;
   margin-top: 30px;
   color: #fff;
+  background-color: #ff5e69;
+  -webkit-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+  border: 2px solid #ff5e69;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 0 15px #ff5e69;
+          box-shadow: 0 0 15px #ff5e69;
+}
+
+.button:active {
+  background-color: #ffa84b;
+  border: 2px solid #ffa84b;
+  -webkit-box-shadow: 0 0 0 0 transparent;
+          box-shadow: 0 0 0 0 transparent;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.home__wrapper-img._anim-items {
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+}
+
+.home__wrapper-img._animate {
+  opacity: 1;
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.section-header._anim-items .title {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.section-header._anim-items .subtitle {
+  opacity: 0;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.section-header._animate .title {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.section-header._animate .subtitle {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .about__text._anim-items {
   opacity: 0;
-  -webkit-transition: 0.4s linear 0.3s;
-  -o-transition: 0.4s linear 0.3s;
-  transition: 0.4s linear 0.3s;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .about__text:nth-child(odd) {
-  -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .about__text:nth-child(even) {
-  -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 .about__text._animate {
@@ -1299,23 +1373,6 @@ body h6 {
   }
 
   .home__title._animate {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-            transform: translateX(0);
-  }
-
-  .home__wrapper-img._anim-items {
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-
-  .home__wrapper-img._animate {
     opacity: 1;
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -1498,23 +1555,6 @@ body h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-  }
-
-  .home__wrapper-img._anim-items {
-    opacity: 0;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-    -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
-  }
-
-  .home__wrapper-img._animate {
-    opacity: 1;
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
   }
 }
 
